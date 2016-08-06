@@ -16,3 +16,12 @@ Oh, dear. 17 minutes for the first cart. That's because SBT took its sweet time 
 
 Here's a nice quote: “I think it’s extraordinarily important that we in computer science keep fun in computing” - Alan J. Perlis
 
+# 06h27
+
+In about 4 minutes I would have reached time, and I didn't even make it easy for you to run this on the CLI.
+
+Damn SBT and its slow start-up times!
+
+Anyhoo, `sbt test` runs the tests, and I think you'll agree that it works.
+
+A few notes, though: I have an unfair advantage in that I've worked extensively in ecommerce (it's called "promotions", not "offers", BTW) and I have also once been given this test at a bank in Canary Wharf, albeit in Java.
