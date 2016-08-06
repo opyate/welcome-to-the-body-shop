@@ -25,3 +25,9 @@ Damn SBT and its slow start-up times!
 Anyhoo, `sbt test` runs the tests, and I think you'll agree that it works.
 
 A few notes, though: I have an unfair advantage in that I've worked extensively in ecommerce (it's called "promotions", not "offers", BTW) and I have also once been given this test at a bank in Canary Wharf, albeit in Java.
+
+# 06h32
+
+Ok, I'm one minute over, but I added a rough-and-ready Main so you can run this and get the cart total in the format you required.
+
+PS this is "web scale", because of the 21st century no-shared-DB approach. *ahem*

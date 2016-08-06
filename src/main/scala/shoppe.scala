@@ -41,3 +41,24 @@ object api {
     }
   } sum
 }
+
+object shop extends App {
+  def usage() = println("""
+           Usage: sbt run [cart|cartPromos] [list of product]
+           Example: sbt "run cart Apple Apple Orange Apple"
+                      """)
+
+  if (args.length <= 1) {
+    usage()
+  } else {
+    args(0) match {
+      case "cart" =>
+        val result = api.cart(args.slice(1, args.length):_*).toDouble / 100
+        println(f"£${result}%2.2f")
+      case "cartPromos" =>
+        val result = api.cartPromos(args.slice(1, args.length):_*).toDouble / 100
+        println(f"£${result}%2.2f")
+      case _ => usage()
+    }
+  }
+}
